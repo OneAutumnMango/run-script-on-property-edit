@@ -35,7 +35,3 @@ if /I "%PROPERTY_VALUE%"=="true" (
 )
 ```
 
-## Disclosure
-
-This was basically fully made with AI, I think I wrote like two lines of it.
-If anything doesn't work let me know by creating an issue.
