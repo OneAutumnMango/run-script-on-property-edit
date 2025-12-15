@@ -164,10 +164,6 @@ class PropertyScriptSettingTab extends PluginSettingTab {
 
 		containerEl.createEl('h2', { text: 'Run Script on Property Edit Settings' });
 
-		containerEl.createEl('p', {
-			text: 'Configure which properties to watch and what scripts to run when they are edited.'
-		});
-
 		// Add new rule button
 		new Setting(containerEl)
 			.setName('Add new property rule')
@@ -249,7 +245,7 @@ class PropertyScriptSettingTab extends PluginSettingTab {
 		});
 
 		// Add documentation section
-		containerEl.createEl('h3', { text: 'Environment Variables' });
+		containerEl.createEl('h2', { text: 'Environment Variables' });
 		const docText = containerEl.createEl('p', {
 			text: 'The following environment variables are passed to your script:'
 		});
