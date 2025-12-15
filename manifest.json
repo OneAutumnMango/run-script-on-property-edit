@@ -3,8 +3,9 @@
 	"name": "Run Script on Property Edit",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Detects when YAML frontmatter properties are edited and runs specified scripts",
+	"description": "Detects when YAML frontmatter properties are edited and runs supplied scripts.",
 	"author": "David Whittam",
 	"authorUrl": "https://github.com/OneAutumnMango",
 	"isDesktopOnly": false
 }
+
