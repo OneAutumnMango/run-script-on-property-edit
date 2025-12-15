@@ -1,0 +1,18 @@
+.property-rule-container {
+	padding: 1em;
+	margin: 1em 0;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 5px;
+	background-color: var(--background-secondary);
+}
+
+.property-rule-container h3 {
+	margin-top: 0;
+	color: var(--text-accent);
+}
+
+.property-rule-container hr {
+	margin: 1em 0 0 0;
+	border: none;
+	border-top: 1px solid var(--background-modifier-border);
+}
