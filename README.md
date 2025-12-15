@@ -4,15 +4,14 @@ An Obsidian plugin that detects when YAML frontmatter properties are edited and 
 
 ## Usage
 
-1. ~Go to Settings → Community Plugins → Run Script on Property Edit~ Have to download manually currently. 
-   Clone this repo to `[your vault]/.obsidian/plugins/` and add the folder name to `.obsidian/community-plugins.json`
-3. Click "Add new property rule"
-4. Configure your rule:
+1. Go to Settings → Community Plugins → Run Script on Property Edit
+1. Click "Add new property rule"
+1. Configure your rule:
    - **Property name**: The frontmatter property to watch (e.g., `status`, `closed`, `tags`)
    - **Script path**: Full path to your script (e.g., `C:\Scripts\my-script.bat` or `/usr/local/bin/my-script.sh`) (haven't tested with a .sh)
    - **Show notification**: Toggle to show a notification when the script runs
-5. Enable the rule
-6. Edit the property in any note's frontmatter to trigger the script
+1. Enable the rule
+1. Edit the property in any note's frontmatter to trigger the script
 
 ## Environment Variables
 
